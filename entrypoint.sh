@@ -1,3 +1,4 @@
 #!/bin/sh -l
 cd /bin/staticsites/
-./StaticSitesClient $INPUT_ACTION
+cat /bin/staticsites/swa_metadata.txt
+#./StaticSitesClient $INPUT_ACTION
