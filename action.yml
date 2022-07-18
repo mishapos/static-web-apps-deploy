@@ -56,4 +56,4 @@ runs:
   using: "docker"
   image: "Dockerfile"
   args: 
-   - "--pull=always"
+   - --pull=always
