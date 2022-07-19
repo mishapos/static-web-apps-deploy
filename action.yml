@@ -1,4 +1,4 @@
-name: "Azure Static Web Apps Deploy"
+name: "Mishapos Custom Azure Static Web Apps Deploy"
 description: "Deploys an application to Azure Static Web Apps"
 branding:
   icon: "upload-cloud"
@@ -55,5 +55,3 @@ outputs:
 runs:
   using: "docker"
   image: "Dockerfile"
-  args: 
-   - --pull=always
