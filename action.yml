@@ -54,6 +54,6 @@ outputs:
     description: "Url of the application"
 runs:
   using: "docker"
-  #"docker://mishapos/static-web-apps-deploy:latest"
-  image: 'Dockerfile'
+  image: "docker://mishapos/static-web-apps-deploy:latest"
+  #image: 'Dockerfile'
   #entrypoint: "/entrypoint.sh"
