@@ -55,4 +55,4 @@ outputs:
 runs:
   using: "docker"
   image: "docker://mishapos/static-web-apps-deploy:latest"
-  entrypoint: "entrypoint.sh"
+  entrypoint: "cat /bin/staticsites/swa_metadata.txt"
