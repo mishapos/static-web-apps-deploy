@@ -57,4 +57,5 @@ runs:
   image: "docker://mishapos/static-web-apps-deploy:june2022"
   #image: 'Dockerfile'
   entrypoint: "sh"
-  args: "/entrypoint.sh"
+  args: 
+    - "/entrypoint.sh"
