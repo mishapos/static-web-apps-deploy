@@ -55,3 +55,4 @@ outputs:
 runs:
   using: "docker"
   image: "Dockerfile"
+  pre-entrypoint: 'pre-entrypoint.sh'
