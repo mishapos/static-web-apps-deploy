@@ -1,4 +1,4 @@
-FROM mishapos/static-web-apps-deploy:latest
+FROM mishapos/static-web-apps-deploy:geo5
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh"]
 
