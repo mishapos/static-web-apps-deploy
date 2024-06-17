@@ -1,3 +1,3 @@
-FROM swamishaposacr.azurecr.io/staticwebapps/static-web-apps-deploy:mishapos5geo
+FROM 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh"]
