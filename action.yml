@@ -55,6 +55,15 @@ inputs:
   data_api_location:
     description: "Directory location of the Data API configuration files"
     required: false
+  github_id_token:
+    description: "GitHub Auth id token"
+    required: false
+  azure_access_token:
+    description: "Azure Access token used to authenticate and authorize the deployment"
+    required: false
+  default_hostname:
+    description: "Default Hostname"
+    required: false
 outputs:
   static_web_app_url:
     description: "Url of the application"
